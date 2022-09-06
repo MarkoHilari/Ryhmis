@@ -5,7 +5,7 @@
 /* Create three equal columns that floats next to each other */
 .boxi {
   float: left;
-  width: 33.33%;
+  width: 29%;
   padding: 10px;
   height: 300px; /* Should be removed. Only for demonstration */
 }
@@ -121,4 +121,8 @@ ul
   .Koodarit
   {
   float: right; width: 200px;
+  }
+  #turhautunut
+  {
+    height: 150px;
   }
