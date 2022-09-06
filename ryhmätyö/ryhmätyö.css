@@ -17,12 +17,16 @@
   clear: both;
 }
 
-body {
+html, body {
   background-color: #FFEBC2;
 }
 .border
 {
   border: 2px solid blue;
+}
+.artikkeli
+{
+  width: 70%;
 }
 .logon
 {
@@ -121,6 +125,8 @@ ul
   .Koodarit
   {
   float: right; width: 200px;
+  margin-right: 200px;
+  background-color: #FFFFFF;
   }
   #turhautunut
   {
