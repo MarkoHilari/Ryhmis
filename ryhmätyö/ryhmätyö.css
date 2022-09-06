@@ -1,3 +1,7 @@
+.border
+{
+  border: 2px solid blue;
+}
 .logon
 {
   float: left;
@@ -17,4 +21,9 @@
 {
   float: right;
   margin-right: 150px;
+}
+header
+{
+  display: table;
+  width: 80%;
 }
