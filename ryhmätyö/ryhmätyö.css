@@ -18,6 +18,7 @@ body{
   margin-left: 100px;
   font-size: 40px;
   color: #FF8100;
+  width: 600px;
 }
 #alaotsikko
 {
@@ -25,14 +26,15 @@ body{
   font-size: 50px;
   margin-left: 10%;
   color: #FFAA00;
+  width:
 }
 .navi
 {
   float: right;
   margin-right: 150px;
-  margin-bottom: 30px;
   font-style: italic;
   font-size: 20px;
+
 }
 header
 {
