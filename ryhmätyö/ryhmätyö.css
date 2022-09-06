@@ -1,4 +1,23 @@
-body{
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.boxi {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.box:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
   background-color: #FFEBC2;
 }
 .border
@@ -34,7 +53,23 @@ body{
   margin-right: 150px;
   font-style: italic;
   font-size: 20px;
-
+}
+.alle
+{
+  margin-left: 30px;
+  margin-top: 40px;
+}
+.maisema
+{
+  width: 40%;
+  height: 70%;
+  margin: 40px 0px 0px 50px;
+}
+.maisema1
+{
+  width: 40%;
+  height: 70%;
+  margin: 40px 0px 0px 0px;
 }
 header
 {
@@ -43,7 +78,11 @@ header
 }
 footer
 {
-  display: table;
+  display: table-row;
+}
+ul
+{
+  list-style: none;
 }
 #alakuva
 {
@@ -81,5 +120,5 @@ footer
 
   .Koodarit
   {
-  float: right; width: 200px; height: 600px
+  float: right; width: 200px;
   }
