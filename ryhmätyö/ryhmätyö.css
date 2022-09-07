@@ -1,7 +1,3 @@
-main
-{
-background-color: #FFEBC2;
-}
 * {
   box-sizing: border-box;
 }
@@ -14,7 +10,7 @@ background-color: #FFEBC2;
     background-color: grey;
     padding: 10px;
   }
-  
+
 .boxi {
   float: left;
   width: 29%;
@@ -29,7 +25,9 @@ background-color: #FFEBC2;
   clear: both;
 }
 
-html, body
+html, body {
+  background-color: #FFEBC2;
+}
 .border
 {
   border: 2px solid blue;
@@ -66,7 +64,7 @@ nav
 {
   float: right;
   margin-top: -70px;
-  margin-right: 150px;
+  margin-right: 250px;
   font-style: italic;
   font-size: 20px;
 }
@@ -143,6 +141,10 @@ aside img
 {
   width: 100%
 }
+/*   #turhautunut
+  {
+  height: 128px;
+  }*/
 .tekstiä
 {
   font-family: 'Combo', cursive; font-size: 20px;
