@@ -13,7 +13,7 @@ main
     display: grid;
     grid-template-areas: 'left middle right';
     grid-gap: 10px;
-    background-color: grey;
+    background-color: #F0D864;
     padding: 10px;
   }
 
@@ -42,7 +42,7 @@ body {
 }
 .artikkeli
 {
-  width: 70%;
+  width: 60%;
 }
 .logon
 {
@@ -141,9 +141,13 @@ ul
 
   .Koodarit
   {
-  float: right; width: 200px;
-  margin-right: 200px;
+  float: right;
+  width: 15%;
   background-color: #FFFFFF;
+  height: 600px;
+  border-radius: 20px;
+  margin-right: 40px;
+  text-align: center;
   }
 aside img
 {
@@ -160,4 +164,10 @@ aside img
 .discord
 {
   height: 0px;
+}
+.face
+{
+  width: 40px;
+  margin-top: 250px;
+  margin-left: 5px;
 }
