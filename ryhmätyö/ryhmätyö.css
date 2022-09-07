@@ -128,10 +128,14 @@ ul
   margin-right: 200px;
   background-color: #FFFFFF;
   }
-  #turhautunut
+aside img
+{
+  width: 100%
+}
+/*   #turhautunut
   {
-    height: 150px;
-  }
+  height: 128px;
+  }*/
 .tekstiä
 {
   font-family: 'Combo', cursive; font-size: 20px;
