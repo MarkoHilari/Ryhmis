@@ -3,6 +3,14 @@
 }
 
 /* Create three equal columns that floats next to each other */
+.grid-container {
+    display: grid;
+    grid-template-areas: 'left middle right';
+    grid-gap: 10px;
+    background-color: grey;
+    padding: 10px;
+  }
+  
 .boxi {
   float: left;
   width: 29%;
@@ -51,9 +59,11 @@ html, body {
   color: #FFAA00;
   width:
 }
-.navi
+
+nav
 {
   float: right;
+  margin-top: -70px;
   margin-right: 150px;
   font-style: italic;
   font-size: 20px;
@@ -65,8 +75,7 @@ html, body {
 }
 .maisema
 {
-  width: 40%;
-  height: 70%;
+height: 70%;
   margin: 40px 0px 0px 50px;
 }
 .maisema1
@@ -139,4 +148,8 @@ aside img
 .tekstiä
 {
   font-family: 'Combo', cursive; font-size: 20px;
+}
+.discord
+{
+  height: 0px;
 }
