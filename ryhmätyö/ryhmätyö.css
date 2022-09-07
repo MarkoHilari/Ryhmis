@@ -1,3 +1,7 @@
+main
+{
+background-color: #FFEBC2;
+}
 * {
   box-sizing: border-box;
 }
@@ -17,9 +21,7 @@
   clear: both;
 }
 
-html, body {
-  background-color: #FFEBC2;
-}
+html, body
 .border
 {
   border: 2px solid blue;
@@ -132,10 +134,6 @@ aside img
 {
   width: 100%
 }
-/*   #turhautunut
-  {
-  height: 128px;
-  }*/
 .tekstiä
 {
   font-family: 'Combo', cursive; font-size: 20px;
