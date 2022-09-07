@@ -1,6 +1,12 @@
-* {
-  box-sizing: border-box;
+main
+{
+  background-color: #F5F6DB;
+  padding:  5px 20px;
 }
+
+/* {
+  box-sizing: border-box;
+}*/
 
 /* Create three equal columns that floats next to each other */
 .grid-container {
@@ -25,8 +31,10 @@
   clear: both;
 }
 
-html, body {
+body {
   background-color: #FFEBC2;
+  width: 70%;
+  margin: auto;
 }
 .border
 {
@@ -64,7 +72,7 @@ nav
 {
   float: right;
   margin-top: -70px;
-  margin-right: 250px;
+  margin-right: 150px;
   font-style: italic;
   font-size: 20px;
 }
