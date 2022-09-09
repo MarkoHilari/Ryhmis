@@ -7,10 +7,19 @@ main
 {
   background-color: #D4B16A;
 }
+#otsikko
+{
+  margin-left: 30px;
+}
 #edvin{
-  width: 20%;
+  width: 40%;
 }
 #otsikkoteksti
 {
-  width: 600px;
+  width: 700px;
+  margin-left: 30px;
+}
+#alaotsikkoteksti
+{
+  width: 700px;
 }
