@@ -1,0 +1,16 @@
+body
+{
+  width: 70%;
+  margin: auto;
+}
+main
+{
+  background-color: #D4B16A;
+}
+#edvin{
+  width: 20%;
+}
+#otsikkoteksti
+{
+  width: 600px;
+}
