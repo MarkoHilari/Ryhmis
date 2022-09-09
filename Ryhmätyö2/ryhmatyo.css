@@ -7,13 +7,18 @@ main
 {
   background-color: #D4B16A;
 }
-#otsikko
+.yla
 {
-  margin-left: 30px;
+  margin: 40px;
 }
 #edvin{
   width: 40%;
 }
+/*#otsikko
+{
+  margin-left: 30px;
+}
+
 #otsikkoteksti
 {
   width: 700px;
@@ -22,4 +27,8 @@ main
 #alaotsikkoteksti
 {
   width: 700px;
+}*/
+.border
+{
+  border: 4px solid blue;
 }
