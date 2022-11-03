@@ -1,4 +1,4 @@
-/*function etsi()
+/*function si()
 {
   let numero = []
   numero[0] = document.getElementById('num1').value;
@@ -11,9 +11,9 @@
 
 }*/
 
-function etsi()
+function eti()
 {
   let num1 = document.getElementById('num1').value;
  let x = Math.max(num1, num2, num3, num4, num5);
-  console.log(etsi);
+  console.log(x);
 }
