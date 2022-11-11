@@ -1,11 +1,13 @@
 
 .imageone
 {
-  background-image: url("https://www.media.stellantis.com/cache/7/2/0/5/8/72058f8f839d619c0dd6201f603f8c4b5973b268.jpeg");
-width:400px;
+  background-image: url("Opel.jpeg");
+  height: 30rem;
+  background-repeat: no-repeat;
 }
 .imagetwo
 {
-  background-image: url(man murderring duck.jpg);
+  background-image: url("man murderring duck.jpg");
+  background-repeat: no-repeat;
   height: 400px;
 }
