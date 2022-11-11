@@ -2,12 +2,19 @@
 .imageone
 {
   background-image: url("Opel.jpeg");
-  height: 30rem;
+background-attachment: fixed;
+min-height: 500px;
+background-position: center;
+background-size: cover;
   background-repeat: no-repeat;
 }
 .imagetwo
 {
   background-image: url("man murderring duck.jpg");
   background-repeat: no-repeat;
-  height: 400px;
+  background-attachment: fixed;
+  min-height: 500px;
+  background-position: center;
+  background-size: cover;
+
 }
