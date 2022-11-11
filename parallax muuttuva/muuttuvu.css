@@ -6,7 +6,12 @@ background-attachment: fixed;
 min-height: 500px;
 background-position: center;
 background-size: cover;
-  background-repeat: no-repeat;
+background-repeat: no-repeat;
+width: 100rem;
+height: 100%;
+padding: 50px;
+border: 1px solid red;
+box-sizing: border-box;
 }
 .imagetwo
 {
@@ -16,11 +21,17 @@ background-size: cover;
   min-height: 500px;
   background-position: center;
   background-size: cover;
+  width: 100rem;
+height: 100px;
+padding: 50px;
+border: 1px solid red;
+box-sizing: border-box;
 
 }
 
   h1, p {
     text-align: center;
+    padding: 50px;
     background: linear-gradient(270deg, #8874d9, #827e94);
     background-size: 400% 400%;
 
@@ -48,4 +59,7 @@ p
 {
   font-family: Arial;
   font-size: 8px;
+}
+body, html{
+  height: 100%;
 }
