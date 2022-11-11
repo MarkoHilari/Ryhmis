@@ -43,12 +43,12 @@ box-sizing: border-box;
   h1, p {
     text-align: center;
     padding: 50px;
-    background: linear-gradient(270deg, #8874d9, #827e94);
-    background-size: 400% 400%;
+    background: linear-gradient(270deg, #8874d9, #827e94, #e37013, #c33076);
+    background-size: 800% 800%;
 
-   -webkit-animation: AnimationName 10s ease infinite;
-    -moz-animation: AnimationName 10s ease infinite;
-    animation: AnimationName 10s ease infinite;
+    -webkit-animation: AnimationName 6s ease infinite;
+    -moz-animation: AnimationName 6s ease infinite;
+    animation: AnimationName 6s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
