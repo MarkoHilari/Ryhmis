@@ -40,10 +40,24 @@ padding: 50px;
 border: 1px solid red;
 box-sizing: border-box;
 }
+.imagefour
+{
+  background-image: url("mermaid.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 700px;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+height: 100px;
+padding: 50px;
+border: 1px solid red;
+box-sizing: border-box;
+}
   h1, p {
     text-align: center;
     padding: 50px;
-    background: linear-gradient(270deg, #8874d9, #827e94, #e37013, #c33076);
+    background: linear-gradient(270deg, #FFB25F, #FF9D33, #FF8500, #C86800);
     background-size: 800% 800%;
 
     -webkit-animation: AnimationName 6s ease infinite;
