@@ -89,5 +89,6 @@ body, html{
   height: 100%;
 }
 .nappi{
-  text-align: center;
+  margin: auto;
+  display: grid;
 }
