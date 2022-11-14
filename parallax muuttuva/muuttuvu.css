@@ -57,6 +57,7 @@ box-sizing: border-box;
     text-align: center;
     padding: 50px;
     background: linear-gradient(270deg,#5da1f0, #ba2be4, #1d77df, #076add, #074edd, #073fb0, #9829e3);
+>>>>>>> 243515e15a4f9dc9920a73fc7073aafa412c7c5f
     background-size: 800% 800%;
     -webkit-animation: AnimationName 6s ease infinite;
     -moz-animation: AnimationName 6s ease infinite;
