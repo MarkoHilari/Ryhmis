@@ -1,7 +1,7 @@
 
 .imageone
 {
-  background-image: url("Opel.jpeg");
+background-image: url("Opel.jpeg");
 background-attachment: fixed;
 min-height: 700px;
 background-position: bottom;
@@ -37,8 +37,7 @@ box-sizing: border-box;
   width: 100%;
 height: 100px;
 padding: 50px;
-border: 1px solid red;
-box-sizing: border-box;
+
 }
 .imagefour
 {
@@ -51,12 +50,11 @@ box-sizing: border-box;
   width: 100%;
 height: 100px;
 padding: 50px;
-border: 1px solid red;
-box-sizing: border-box;
+
 }
   h1, p {
     text-align: center;
-    padding: 50px;
+    padding: 30px;
     background: linear-gradient(270deg, #FFB25F, #FF9D33, #FF8500, #C86800);
     background-size: 800% 800%;
 
@@ -89,4 +87,7 @@ p
 }
 body, html{
   height: 100%;
+}
+figcaption{
+  font-size: 8px;
 }
