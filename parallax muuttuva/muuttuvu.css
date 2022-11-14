@@ -54,10 +54,14 @@ padding: 50px;
 }
   h1, p {
     text-align: center;
+<<<<<<< HEAD
     padding: 30px;
     background: linear-gradient(270deg, #FFB25F, #FF9D33, #FF8500, #C86800);
+=======
+    padding: 50px;
+    background: linear-gradient(270deg,#5da1f0, #ba2be4, #1d77df, #076add, #074edd, #073fb0, #9829e3);
+>>>>>>> c89909ffc43561d03f97ad24a48f785fa096b6dd
     background-size: 800% 800%;
-
     -webkit-animation: AnimationName 6s ease infinite;
     -moz-animation: AnimationName 6s ease infinite;
     animation: AnimationName 6s ease infinite;
