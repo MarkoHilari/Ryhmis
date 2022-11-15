@@ -87,8 +87,14 @@ p
 }
 body, html{
   height: 100%;
+  background-color: purple;
 }
 .nappi{
   margin: auto;
   display: grid;
+  background-color: lightblue;
+  border-radius: 3.5rem;
+}
+figcaption{
+  text-align: center;
 }
