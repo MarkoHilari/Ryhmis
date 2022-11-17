@@ -1,57 +1,61 @@
 
-.imageone
+.imageone /* Kuvat tulee imageista näytölle*/
 {
   background-image: url("Opel.jpeg");
+/* Tästä tulee parallax ilmiö*/
 background-attachment: fixed;
-min-height: 700px;
-background-position: bottom;
+min-height: 700px;    /* Kuvan koko, jos liian pieni ei sovitu ruudelle oikein*/
+background-position: bottom; /* Kuvan asettelu*/
 background-size: cover;
-background-repeat: no-repeat;
+background-repeat: no-repeat; /* Kuvan toistamisen lopettaminen*/
 width: 100%;
 height: 100%;
-box-sizing: border-box;
+box-sizing: border-box; /* Kaikki kuvat samankokoisiksi*/
 margin-top: -1.6rem;
 }
-.imagetwo
+.imagetwo /* Kuvat tulee imageista näytölle*/
 {
   background-image: url("man murderring duck.jpg");
-  background-repeat: no-repeat;
+  /* Tästä tulee parallax ilmiö*/
+  background-repeat: no-repeat;  /* Kuvan toistamisen lopettaminen*/
   background-attachment: fixed;
-  min-height: 700px;
-  background-position: center;
+  min-height: 700px;    /* Kuvan koko, jos liian pieni ei sovitu ruudelle oikein*/
+  background-position: center; /* Kuvan asettelu*/
   background-size: cover;
   width: 100%;
 height: 100px;
 padding: 50px;
-box-sizing: border-box;
+box-sizing: border-box;  /* Kaikki kuvat samankokoisiksi*/
 }
-.imagethree
+.imagethree   /* Kuvat tulee imageista näytölle*/
 {
   background-image: url("Rikunharrastus.jpg");
-  background-repeat: no-repeat;
+    /* Tästä tulee parallax ilmiö*/
+  background-repeat: no-repeat;  /* Kuvan toistamisen lopettaminen*/
   background-attachment: fixed;
-  min-height: 700px;
-  background-position: center;
-  background-size: cover;
+  min-height: 700px;  /* Kuvan koko, jos liian pieni ei sovitu ruudelle oikein*/
+  background-position: center;  /* Kuvan asettelu*/
+  background-size: cover;  /
   width: 100%;
 height: 100px;
 padding: 50px;
 border: 1px solid red;
-box-sizing: border-box;
+box-sizing: border-box; /* Kaikki kuvat samankokoisiksi*/
 }
-.imagefour
+.imagefour    /* Kuvat tulee imageista näytölle*/
 {
   background-image: url("mermaid.jpg");
-  background-repeat: no-repeat;
+  /* Tästä tulee parallax ilmiö*/
+  background-repeat: no-repeat;  /* Kuvan toistamisen lopettaminen*/
   background-attachment: fixed;
-  min-height: 700px;
-  background-position: center;
+  min-height: 700px;  /* Kuvan koko, jos liian pieni ei sovitu ruudelle oikein*/
+  background-position: center;  /* Kuvan asettelu*/
   background-size: cover;
   width: 100%;
 height: 100px;
 padding: 50px;
 border: 1px solid red;
-box-sizing: border-box;
+box-sizing: border-box;  /* Kaikki kuvat samankokoisiksi*/
 }
   h1, p {
     text-align: center;
@@ -63,7 +67,7 @@ box-sizing: border-box;
     animation: AnimationName 6s ease infinite;
 }
 
-@-webkit-keyframes AnimationName {
+@-webkit-keyframes AnimationName {  /* Tästä tulee värin vaihtelu*/
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
@@ -85,16 +89,19 @@ p
   margin-top: -1rem;
   margin-bottom: -1.5rem;
 }
+/* Sivun koko muokattu*/
 body, html{
   height: 100%;
   background-color: purple;
 }
+/* Button muokattu*/
 .nappi{
   margin: auto;
   display: grid;
   background-color: lightblue;
   border-radius: 3.5rem;
 }
+/* Kuvalle linkki/viittaus, ja kohdistettu keskelle*/
 figcaption{
   text-align: center;
 }
